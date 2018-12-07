@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Amy’s Portfolio</title>
+	</head>
+	<style>
+        * {box-sizing: border-box}
+        .content {background: #f2f2f2; 
+            color:black; 
+            padding-left: 10%;
+            padding-right:10%;
+            max-width: inherit; 
+            align-content: justify;
+            font-family: Noto Sans TC;}
+        .header h1 {font-size: 60px;}
+        .navbar {background: aqua; 
+            overflow: hidden;
+            height: 30px;
+            }
+        .navbar a {
+            float:left;
+            font-family: Times New Roman;
+            font-size: 20px;
+            color: black; 
+            padding: 5px 20px;
+           
+            }
+        .navbar a:hover {background:pink;}
+        .navbar a:active {background:crimson; color:darksalmon}
+        .column {float:left; padding: 20px; height: 350px;}
+        .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+        .header {padding: 80px; 
+        text-align: center;
+        background:pink;}
+        
+        .footer {padding: 5px;
+        font-size: 15px;
+        text-align: center;
+        background: aqua;
+        }
+    </style>
+	<body class = "content">
+        <div class = "header">
+		  <h1>Amy’s Portfolio</h1>
+            <p>Welcome Welcome Welcome</p>
+        </div>
+		<!--<hr width=“1000 px” length=“20 px”/>-->
+        <nav class = "navbar">
+            <a herf = "#home">Home</a>
+            <a herf = "#Academic">Academic</a>
+            <a herf = "#Life">Life</a>
+            <a herf = "#Contact">Contact</a>    
+        </nav>
+        <div class = "row">
+            <div class = "column" style = "background: hotpink; color: floralwhite; width:25%;">
+                <h2>Portfolio</h2>
+                <p>My picture</p>
+                <img src = "labyrinth-circle-1.jpg" alt = "labyrinth-circle-1" width = "200px" height = "200px" >
+                <div class = "container">
+                </div>
+            </div>
+            <div class = "column" style = "background: pink; color: black;width: 50%">
+                <h2>Welcome to Amy's Website!</h2>
+                <p>Hi!!Thank you for being interested in my Webpage. </p>
+                <p>My name is <strong>Amy</strong>. I’m currently a first-year student at <b>NYU</b> planning to study <b>Biology</b>. In my spare time, I learn to code and now I’m on track of web development. I hope to meet more intelligent coding people and have better skills in communicating in coding language.</p>
+                <p>This is the first webpage i'm creating. More will be put on, please stay in tune!</p>
+            </div>
+            <div class = "column" style = "background: hotpink; color: floralwhite; width: 25%">
+                <p>Leave your name and email in my mailbox below please;)</p>
+            </div>
+        </div>
+        <footer class = "footer">
+            <h2>Reach out to me!</h2>
+            <p>229, 5 University Place, NY, NY|347-702-3004|rd2538@nyu.edu</p>
+        </footer>
+	</body>
+</html>
