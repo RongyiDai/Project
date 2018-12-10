@@ -39,3 +39,6 @@
             color: white;
         background: black;
         }
+        table {border: grey; border-collapse: collapse;text-align: left; padding: 5px;grid-auto-columns: auto;}
+table th {background: black; color: white}
+        
