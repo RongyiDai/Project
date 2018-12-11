@@ -14,14 +14,18 @@
         .navbar a {
             float:left;
             font-family: Noto Sans TC;
-            font-size: 20px;
+            font-size: 18px;
             color: white; 
-            padding: 5px 20px;
-            vertical-align: middle;
+            tab-size: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration:none;
+            display: inline-block
            
             }
-        .navbar a:hover {background:#AED6F1;}
-        .navbar a:active {background:#3498DB; color:#AED6F1;}
+nav a.home{float:right;}
+        .navbar a:hover {border:2px solid #AED6F1;}
+        .navbar a:active {background:#3498DB; color:white;}
         .column {float:left; padding: 20px; height: 400px;text-align:left;}
         .row:after {
     content: "";
